@@ -17,6 +17,7 @@ Leather is used in a huge number of recipes in both vanilla and modded, yet is h
 
 Drop values can be fully customized in the mod's config file.
 ### Vanilla Default Drops
-<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/with-config/Assets/vanilla_drops.png"/>
+<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/4aec391171ed309d38108f00d08dfc4059f85941/Assets/vanilla_drops.png"/>
 <br>
 
+### Beef & Blade Defaults
