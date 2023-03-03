@@ -11,16 +11,18 @@
     "homepage": "https://github.com/Khazoda/beef-and-blade",
     "sources": "https://github.com/Khazoda/beef-and-blade"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/beef-and-blade/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.seacroak.beefandblade.BeefAndBlade"
+      "com.seacroak.beefandblade.BeefAndBlade"
+    ],
+    "modmenu": [
+      "com.seacroak.beefandblade.config.BNBModMenu"
     ]
   },
   "mixins": [
-    "beef-and-blade.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.14",
