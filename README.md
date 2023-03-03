@@ -10,6 +10,12 @@
     <br>
 </h1>
 
+
+**Beef & Blade can be used serverside only, and will work with vanilla clients. This has only been tested on fabric versions so far. Please report any problems/bugs to the issue tracker.**
+
+If both server and client are running the mod, the server's config file takes priority over the client's
+
+
 ## What this mod does
 Leather is used in a huge number of recipes in both vanilla and modded, yet is hard to reliably get early-game.
 
