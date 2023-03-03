@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://github.com/Khazoda/beef-and-blade/blob/with-config/Assets/big-picture.png?raw=true">
+    <img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/main/Assets/big-picture.png">
     <br>
     Beef & Blade
     <br>
