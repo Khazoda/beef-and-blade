@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
   "id": "beef-and-blade",
-  "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "version": "1.0.0",
+  "name": "Beef & Blade",
+  "description": "Weapon-dependent drop rates for leather and beef",
   "authors": [
-    "Me!"
+    "Khazoda"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Khazoda/beef-and-blade",
+    "sources": "https://github.com/Khazoda/beef-and-blade"
   },
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/beef-and-blade/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.BeefAndBlade"
+      "net.seacroak.beefandblade.BeefAndBlade"
     ]
   },
   "mixins": [
