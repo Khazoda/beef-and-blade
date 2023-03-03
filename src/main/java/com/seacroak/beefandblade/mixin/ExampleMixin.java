@@ -1,7 +1,7 @@
-package net.seacroak.beefandblade.mixin;
+package com.seacroak.beefandblade.mixin;
 
 import net.minecraft.client.gui.screen.TitleScreen;
-import net.seacroak.beefandblade.BeefAndBlade;
+import com.seacroak.beefandblade.BeefAndBlade;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

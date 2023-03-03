@@ -1,11 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.seacroak.beefandblade.mixin",
+  "package": "com.seacroak.beefandblade.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [],
   "client": [
-    "ExampleMixin"
+    "com.seacroak.beefandblade.mixin.ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

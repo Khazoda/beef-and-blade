@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.seacroak.beefandblade.BeefAndBlade"
+      "com.seacroak.beefandblade.BeefAndBlade"
     ]
   },
   "mixins": [

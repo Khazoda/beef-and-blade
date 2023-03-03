@@ -1,4 +1,4 @@
-package net.seacroak.beefandblade;
+package com.seacroak.beefandblade;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
