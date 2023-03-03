@@ -39,7 +39,7 @@ public class BeefAndBlade implements ModInitializer {
 
   @Override
   public void onInitialize() {
-//    Config Initialization
+    // Config Initialization
     if (!initConfig) {
       try {
         config = BNBConfigHandler.readConfig();
@@ -50,13 +50,25 @@ public class BeefAndBlade implements ModInitializer {
       initConfig = true;
     }
 
-//    Loot Table Instantiation
+    // Data Defaults
+//    int sword_leather_min = 2;
+//    int sword_leather_max = 3;
+//
+//    int sword_beef_min = 0;
+//    int sword_beef_max = 0;
+//
+//    int axe_leather_min = 0;
+//    int axe_leather_max = 0;
+//
+//    int axe_beef_min = 4;
+//    int axe_beef_max = 5;
+
+    // Loot Table Instantiation
     LootTableEvents.REPLACE.register((resourceManager, lootManager, id, original, source) -> {
       if (source.isBuiltin() && COW_LOOT_TABLE_ID.equals(id)) {
         if (source != LootTableSource.VANILLA) {
           throw new AssertionError("[Warning] Should reference vanilla cow loot table");
         }
-
         // DEFAULT BEEF DROPS VALUE
         LootPool.Builder beefDefaultBuilder = LootPool.builder()
           .conditionally(
@@ -99,7 +111,7 @@ public class BeefAndBlade implements ModInitializer {
           .with(ItemEntry.builder(Items.LEATHER))
           .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0.0f, 2.0f)).build());
 
-        // COW KILLED WITH AXE
+        // COW KILLED WITH AXE - BEEF
         LootPool.Builder beefAxeBuilder = LootPool.builder()
           .conditionally(
             EntityPropertiesLootCondition
@@ -114,9 +126,26 @@ public class BeefAndBlade implements ModInitializer {
                     .build())
                   .build()))
           .with(ItemEntry.builder(Items.BEEF))
-          .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(4.0f, 5.0f)).build());
+          .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(config.axe_beef_range.getMin(),config.axe_beef_range.getMax())).build());
 
-        // COW KILLED WITH SWORD
+        // COW KILLED WITH AXE - LEATHER
+        LootPool.Builder leatherAxeBuilder = LootPool.builder()
+          .conditionally(
+            EntityPropertiesLootCondition
+              .builder(LootContext.EntityTarget.KILLER,
+                new EntityPredicate.Builder()
+                  .equipment(EntityEquipmentPredicate.Builder.create()
+                    .mainhand(ItemPredicate.Builder.create()
+                      .items(Items.WOODEN_AXE, Items.STONE_AXE,
+                        Items.IRON_AXE, Items.GOLDEN_AXE,
+                        Items.DIAMOND_AXE, Items.NETHERITE_AXE)
+                      .build())
+                    .build())
+                  .build()))
+          .with(ItemEntry.builder(Items.LEATHER))
+          .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(config.axe_leather_range.getMin(),config.axe_leather_range.getMax())).build());
+
+        // COW KILLED WITH SWORD - LEATHER
         LootPool.Builder leatherSwordBuilder = LootPool.builder()
           .conditionally(
             EntityPropertiesLootCondition
@@ -132,11 +161,34 @@ public class BeefAndBlade implements ModInitializer {
                     .build())
                   .build()))
           .with(ItemEntry.builder(Items.LEATHER))
-          .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0f, 3.0f)).build());
+          .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(config.sword_leather_range.getMin(), config.sword_leather_range.getMax())).build());
 
-        return LootTable.builder().pool(beefDefaultBuilder).pool(leatherDefaultBuilder)
+        // COW KILLED WITH SWORD - BEEF
+        LootPool.Builder beefSwordBuilder = LootPool.builder()
+          .conditionally(
+            EntityPropertiesLootCondition
+              .builder(LootContext.EntityTarget.KILLER,
+                new EntityPredicate.Builder()
+                  .equipment(EntityEquipmentPredicate.Builder.create()
+                    .mainhand(ItemPredicate.Builder.create()
+                      .items(Items.WOODEN_SWORD, Items.STONE_SWORD,
+                        Items.IRON_SWORD, Items.GOLDEN_SWORD,
+                        Items.DIAMOND_SWORD,
+                        Items.NETHERITE_SWORD)
+                      .build())
+                    .build())
+                  .build()))
+          .with(ItemEntry.builder(Items.BEEF))
+          .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(config.sword_beef_range.getMin(), config.sword_beef_range.getMax())).build());
+
+        return LootTable.builder()
+          .pool(beefDefaultBuilder)
+          .pool(leatherDefaultBuilder)
           .pool(leatherSwordBuilder)
-          .pool(beefAxeBuilder).build();
+          .pool(beefAxeBuilder)
+          .pool(beefSwordBuilder)
+          .pool(leatherAxeBuilder)
+          .build();
       }
       return null;
     });
