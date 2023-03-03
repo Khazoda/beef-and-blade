@@ -13,5 +13,11 @@
 ## What this mod does
 Leather is used in a huge number of recipes in both vanilla and modded, yet is hard to reliably get early-game.
 
-*Beef & Blade* rebalances cow drops by letting the player harvest specific resources from cows if they wish.
+*Beef & Blade* rebalances cow drops by letting the player pick what resources they need from a cow by using different weapons.
+
+Drop values can be fully customized in the mod's config file.
+### Vanilla Default Drops
+<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/with-config/Assets/sword.png"/>
+<br>
+<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/with-config/Assets/axe.png"/>
 
