@@ -17,6 +17,9 @@
   "entrypoints": {
     "main": [
       "com.seacroak.beefandblade.BeefAndBlade"
+    ],
+    "modmenu": [
+      "com.seacroak.beefandblade.config.BNBModMenu"
     ]
   },
   "mixins": [
