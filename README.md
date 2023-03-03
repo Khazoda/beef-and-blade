@@ -19,5 +19,5 @@ Drop values can be fully customized in the mod's config file.
 ### Vanilla Default Drops
 <img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/with-config/Assets/sword.png"/>
 <br>
-<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/with-config/Assets/axe.png"/>
+<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/with-config/Assets/axe.png"/> 
 
