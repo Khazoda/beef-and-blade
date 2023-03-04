@@ -1,7 +1,7 @@
 <h1 align="center">
     <img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/main/Assets/big-picture.png">
     <br>
-    🥩Beef & Blade ⚔️
+    🥩 Beef & Blade ⚔️
     <br>
     <img src="https://img.shields.io/badge/mod%20loader-Fabric | Forge-brightgreen" />
     <img src="https://img.shields.io/badge/latest%20version-1.19.3-blue" />
