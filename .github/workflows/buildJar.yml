@@ -37,7 +37,7 @@ jobs:                                             #The place where you actually 
       - name: Build
         run: ./gradlew clean build
 
-      - name: Publish (Github)
+      - name: Publish (CurseForge/Modrinth/Github)
           uses: Kir-Antipov/mc-publish@v3.2
           with:
             github-tag: "v${{env.VERSION}}"
