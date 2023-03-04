@@ -25,13 +25,15 @@ Drop values can be fully customized in the mod's config file.
 
 ---
 ### Vanilla Default Drops
-<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/4aec391171ed309d38108f00d08dfc4059f85941/Assets/vanilla_drops.png"/>
+<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/main/Assets/vanilla_drops.png"/>
 <br>
 
 ### Beef & Blade Defaults
-<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/with-config/Assets/sword_drops.png"/>
+<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/main/Assets/sword_drops.png"/>
+
 <br>
-<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/with-config/Assets/axe_drops.png"/>
+
+<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/main/Assets/axe_drops.png"/>
 
 ---
 
