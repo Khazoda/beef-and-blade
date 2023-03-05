@@ -46,7 +46,7 @@ jobs:                                             #The place where you actually 
           name: "${{env.RELEASE_NAME}}"
           version: "${{env.VERSION}}"
           version-type: release
-          changelog-file: CHANGELOG.md                                      #The file in which the changes of your new update are specified (the path starts at your project root)
+          changelog-file: CHANGELOG.md
 
           loaders: fabric
           game-versions: "${{env.MINECRAFT_VERSION}}"
