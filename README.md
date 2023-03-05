@@ -1,15 +1,14 @@
-<h1 align="center">
-    <img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/1.19.3_Fabric/Assets/big-picture.png">
-    <br>
-    🥩 Beef & Blade ⚔️
-    <br>
-    <img src="https://img.shields.io/badge/mod%20loader-Fabric | Forge-brightgreen" />
-    <img src="https://img.shields.io/badge/latest%20version-1.19.3-blue" />
-    <img src="https://img.shields.io/github/issues/Khazoda/beef-and-blade" />
-    <img src="https://img.shields.io/github/last-commit/Khazoda/beef-and-blade" />
-    <br>
-</h1>
+<center>
+<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/1.19.3_Fabric/Assets/big-picture.png">
+<p>
+<img src="https://img.shields.io/badge/mod%20loader-Fabric | Forge-brightgreen" />
+<img src="https://img.shields.io/badge/latest%20version-1.19.3-blue" />
+<img src="https://img.shields.io/github/issues/Khazoda/beef-and-blade" />
+<img src="https://img.shields.io/github/last-commit/Khazoda/beef-and-blade" />
+</p>
+</center>
 
+# 🥩 Beef & Blade ⚔️
 
 **Beef & Blade can be used serverside only, and will work with vanilla clients. This has only been tested on fabric versions so far. Please report any problems/bugs to the issue tracker.**
 
