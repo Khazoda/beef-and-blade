@@ -1,4 +1,4 @@
-<center>
+<div align="center">
 <img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/1.19.3_Fabric/Assets/big-picture.png">
 <p>
 <img src="https://img.shields.io/badge/mod%20loader-Fabric | Forge-brightgreen" />
@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/github/issues/Khazoda/beef-and-blade" />
 <img src="https://img.shields.io/github/last-commit/Khazoda/beef-and-blade" />
 </p>
-</center>
+</div>
 
 # 🥩 Beef & Blade ⚔️
 
