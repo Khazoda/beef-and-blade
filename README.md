@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/main/Assets/big-picture.png">
+    <img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/1.19.3_Fabric/Assets/big-picture.png">
     <br>
     🥩 Beef & Blade ⚔️
     <br>
@@ -25,15 +25,15 @@ Drop values can be fully customized in the mod's config file.
 
 ---
 ### Vanilla Default Drops
-<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/main/Assets/vanilla_drops.png"/>
+<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/1.19.3_Fabric/Assets/vanilla_drops.png"/>
 <br>
 
 ### Beef & Blade Defaults
-<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/main/Assets/sword_drops.png"/>
+<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/1.19.3_Fabric/Assets/sword_drops.png"/>
 
 <br>
 
-<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/main/Assets/axe_drops.png"/>
+<img src="https://raw.githubusercontent.com/Khazoda/beef-and-blade/1.19.3_Fabric/Assets/axe_drops.png"/>
 
 ---
 
