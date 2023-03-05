@@ -3,10 +3,10 @@ name: Publish release on GitHub  #The name of your Github Action on Github.com
 on: [ workflow_dispatch ]           #When your Github Action will be executed ('pull_request' -> on every Merge(/Pull) Request; 'workflow_dispatch' -> allows manual execution through Github.com
 
 env:                                              #Environment variables that can later be referenced using ${{ env.MINECRAFT_VERSION }}. These are useful for repeating information and allow for quick changes for new mod updates
-  MINECRAFT_VERSION: 1.19.3
+  MINECRAFT_VERSION: 1.19
   JAVA_VERSION: 17
-  VERSION: 1.0.0+1.19.3
-  RELEASE_NAME: Beef & Blade 1.0.0 for Minecraft 1.19.3
+  VERSION: 1.0.0+1.19
+  RELEASE_NAME: Beef & Blade 1.0.0 for Minecraft 1.19
   GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
 
 permissions:
