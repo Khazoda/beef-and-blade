@@ -5,7 +5,7 @@
   "name": "Beef & Blade",
   "description": "Weapon-dependent drop rates for leather and beef",
   "authors": [
-    "Khazoda"
+    "Khazoda/June"
   ],
   "contact": {
     "homepage": "https://github.com/Khazoda/beef-and-blade",
@@ -22,12 +22,11 @@
       "com.seacroak.beefandblade.config.BNBModMenu"
     ]
   },
-  "mixins": [
-  ],
+  "mixins": [],
   "depends": {
-    "fabricloader": ">=0.14.14",
+    "fabricloader": ">=0.14.22",
     "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "minecraft": "~1.20.1",
     "java": ">=17"
   },
   "suggests": {
