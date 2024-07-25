@@ -1,0 +1,18 @@
+modLoader="javafml"
+loaderVersion="[20,)"
+license="Unknown"
+
+[[mods]]
+modId="beefandblade"
+displayName="Beef & Blade"
+version="1.1.0"
+logoFile = "assets/icon.png"
+description='''
+Weapon-dependent cow drops | Made by Khazoda
+'''
+[[dependencies.beefandblade]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.3,)"
+    ordering="NONE"
+    side="BOTH"

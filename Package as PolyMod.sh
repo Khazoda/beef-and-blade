@@ -1,0 +1,1 @@
+cd "Mod Root/" && jar -cfM ../Releases/beef-and-blade.jar ./

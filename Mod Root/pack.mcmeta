@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "name": "Beef & Blade",
+        "description": "Weapon-dependent cow drops | Made by Khazoda",
+        "pack_format": 48,
+        "id": "beefandblade",
+        "version": "1.0.0"
+    }
+}

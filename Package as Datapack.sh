@@ -1,0 +1,1 @@
+cd "Datapack Root/" && jar -cfM ../Releases/beef-and-blade.zip ./
